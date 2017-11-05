@@ -1,3 +1,3 @@
 # abstract
 
-## the Abstract website refactoring with Vue.js
+the Abstract website refactoring with Vue.js

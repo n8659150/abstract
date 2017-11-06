@@ -2,7 +2,9 @@
   <div id="app">
     <!-- <img src="./assets/logo.png"> -->
     <headerBar></headerBar>
+    <keep-alive>  
     <router-view/>
+    </keep-alive include="home">
     <footerBar></footerBar>
   </div>
 </template>

@@ -376,67 +376,10 @@
 
 					</article>
 					<!-- end article -->
-
-					<article class="brick entry animate-this">
-
-						<div class="entry-thumb">
-							<a href="single-standard.html" class="thumb-link">
-								<img src="static/images/thumbs/lighthouse.jpg" alt="Lighthouse">
-							</a>
-						</div>
-
-						<div class="entry-text">
-							<div class="entry-header">
-
-								<div class="entry-meta">
-									<span class="cat-links">
-               				<a href="#">Photography</a> 
-               				<a href="#">Design</a>
-               			</span>
-								</div>
-
-								<h1 class="entry-title"><a href="single-standard.html">Breathtaking Photos of Lighthouses.</a></h1>
-
-							</div>
-							<div class="entry-excerpt">
-								Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est
-								ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa
-								in anim.
-							</div>
-						</div>
-
-					</article>
+					<brickArticle type="single-standard" :thumbnailSrc="brickData['Lighthouse']['thumbnailSrc']" :srcAlt="brickData['Lighthouse']['srcAlt']" :catLink1="brickData['Lighthouse']['catLink1']" :catLink2="brickData['Lighthouse']['catLink2']" :entryTitle="brickData['Lighthouse']['entryTitle']" :entryExcerpt="brickData['Lighthouse']['entryExcerpt']"></brickArticle>	
 					<!-- end article -->
+					<brickArticle type="single-standard" :thumbnailSrc="brickData['Liberty']['thumbnailSrc']" :srcAlt="brickData['Liberty']['srcAlt']" :catLink1="brickData['Liberty']['catLink1']" :catLink2="brickData['Liberty']['catLink2']" :entryTitle="brickData['Liberty']['entryTitle']" :entryExcerpt="brickData['Liberty']['entryExcerpt']"></brickArticle>
 
-					<article class="brick entry animate-this">
-
-						<div class="entry-thumb">
-							<a href="single-standard.html" class="thumb-link">
-								<img src="static/images/thumbs/liberty.jpg" alt="Liberty">
-							</a>
-						</div>
-
-						<div class="entry-text">
-							<div class="entry-header">
-
-								<div class="entry-meta">
-									<span class="cat-links">
-               				<a href="#">Branding</a> 
-               				<a href="#">html</a>                	
-               			</span>
-								</div>
-
-								<h1 class="entry-title"><a href="single-standard.html">Designing With Black and White.</a></h1>
-
-							</div>
-							<div class="entry-excerpt">
-								Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est
-								ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa
-								in anim.
-							</div>
-						</div>
-
-					</article>
 					<!-- end article -->
 
 				</div>
@@ -446,21 +389,7 @@
 			<!-- end row -->
 
 			<div class="row">
-
-				<nav class="pagination">
-					<span class="page-numbers prev inactive">Prev</span>
-					<span class="page-numbers current">1</span>
-					<a href="#" class="page-numbers">2</a>
-					<a href="#" class="page-numbers">3</a>
-					<a href="#" class="page-numbers">4</a>
-					<a href="#" class="page-numbers">5</a>
-					<a href="#" class="page-numbers">6</a>
-					<a href="#" class="page-numbers">7</a>
-					<a href="#" class="page-numbers">8</a>
-					<a href="#" class="page-numbers">9</a>
-					<a href="#" class="page-numbers next">Next</a>
-				</nav>
-
+				<homePagination pageCount='5'></homePagination>
 			</div>
 
 		</section>
@@ -468,11 +397,38 @@
 </template>
 
 <script>
+import brickArticle from './brickArticle'
+import homePagination from './homePagination'
 export default {
   name: 'Home',
+  components:{
+	  brickArticle,
+	  homePagination
+  },
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+	  brickData: {
+		  'Liberty':{
+			  'srcAlt':'Liberty',
+			  'thumbnailSrc':'static/images/thumbs/liberty.jpg',
+			  'catLink1':'Branding',
+			  'catLink2':'html',
+			  'entryTitle':'Designing With Black and White.',
+			  'entryExcerpt':`Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est
+								ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa
+								in anim.`
+		  },
+		  'Lighthouse':{
+			  'srcAlt':'Lighthouse',
+			  'thumbnailSrc':'static/images/thumbs/lighthouse.jpg',
+			  'catLink1':'Photography',
+			  'catLink2':'Design',
+			  'entryTitle':'Breathtaking Photos of Lighthouses.',
+			  'entryExcerpt':`Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est
+								ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa
+								in anim.`
+		  },
+	  }
     }
   }
 }

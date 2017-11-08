@@ -81,307 +81,32 @@
 						</div>
 						<!-- end entry content -->
 					</div>
-
-					<article class="brick entry format-standard animate-this">
-
-						<div class="entry-thumb">
-							<a href="single-standard.html" class="thumb-link">
-								<img src="static/images/thumbs/diagonal-building.jpg" alt="building">
-							</a>
-						</div>
-
-						<div class="entry-text">
-							<div class="entry-header">
-
-								<div class="entry-meta">
-									<span class="cat-links">
-               				<a href="#">Design</a> 
-               				<a href="#">Photography</a>               				
-               			</span>
-								</div>
-
-								<h1 class="entry-title"><a href="single-standard.html">Just a Standard Format Post.</a></h1>
-
-							</div>
-							<div class="entry-excerpt">
-								Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est
-								ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa
-								in anim.
-							</div>
-						</div>
-
-					</article>
+					<brickArticle :type="brickData['building']['type']" :thumbnailSrc="brickData['building']['thumbnailSrc']" :srcAlt="brickData['building']['srcAlt']" :catLink1="brickData['building']['catLink1']" :catLink2="brickData['building']['catLink2']" :entryTitle="brickData['building']['entryTitle']" :entryExcerpt="brickData['building']['entryExcerpt']"></brickArticle>
 					<!-- end article -->
-
-					<article class="brick entry format-standard animate-this">
-
-						<div class="entry-thumb">
-							<a href="single-standard.html" class="thumb-link">
-								<img src="static/images/thumbs/ferris-wheel.jpg" alt="ferris wheel">
-							</a>
-						</div>
-
-						<div class="entry-text">
-							<div class="entry-header">
-
-								<div class="entry-meta">
-									<span class="cat-links">
-               				<a href="#">Design</a> 
-               				<a href="#">UI</a>                			
-               			</span>
-								</div>
-
-								<h1 class="entry-title"><a href="single-standard.html">This Is Another Standard Format Post.</a></h1>
-
-							</div>
-							<div class="entry-excerpt">
-								Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est
-								ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa
-								in anim.
-							</div>
-						</div>
-
-					</article>
+					<brickArticle :type="brickData['ferris']['type']" :thumbnailSrc="brickData['ferris']['thumbnailSrc']" :srcAlt="brickData['ferris']['srcAlt']" :catLink1="brickData['ferris']['catLink1']" :catLink2="brickData['ferris']['catLink2']" :entryTitle="brickData['ferris']['entryTitle']" :entryExcerpt="brickData['ferris']['entryExcerpt']"></brickArticle>
 					<!-- end article -->
-
-					<div class="copyrights">Collect from <a href="http://www.cssmoban.com/">企业网站模板</a></div>
-
 					<!-- format audio here -->
-					<article class="brick entry format-audio animate-this">
-
-						<div class="entry-thumb">
-							<a href="single-audio.html" class="thumb-link">
-								<img src="static/images/thumbs/concert.jpg" alt="concert">
-							</a>
-
-							<div class="audio-wrap">
-								<audio id="player" src="media/AirReview-Landmarks-02-ChasingCorporate.mp3" width="100%" height="42" controls="controls"></audio>
-							</div>
-						</div>
-
-						<div class="entry-text">
-							<div class="entry-header">
-
-								<div class="entry-meta">
-									<span class="cat-links">
-               				<a href="#">Design</a> 
-               				<a href="#">Music</a>                				
-               			</span>
-								</div>
-
-								<h1 class="entry-title"><a href="single-audio.html">This Is a Audio Format Post.</a></h1>
-
-							</div>
-							<div class="entry-excerpt">
-								Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est
-								ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa
-								in anim.
-							</div>
-						</div>
-
-					</article>
+					<brickAudio :type="brickData['concert']['type']" :thumbnailSrc="brickData['concert']['thumbnailSrc']" :srcAlt="brickData['concert']['srcAlt']" :audioSrc="brickData['concert']['audioSrc']" :catLink1="brickData['concert']['catLink1']" :catLink2="brickData['concert']['catLink2']" :entryTitle="brickData['concert']['entryTitle']" :entryExcerpt="brickData['concert']['entryExcerpt']"></brickAudio>
 					<!-- /article -->
-
-					<article class="brick entry format-quote animate-this">
-
-						<div class="entry-thumb">
-							<blockquote>
-								<p>Good design is making something intelligible and memorable. Great design is making something memorable and meaningful.</p>
-
-								<cite>Dieter Rams</cite>
-							</blockquote>
-						</div>
-
-					</article>
+					
+					<brickQuote :quote="brickData['quote']['quote']" :author="brickData['quote']['author']"></brickQuote>
 					<!-- end article -->
-
-					<article class="brick entry animate-this">
-
-						<div class="entry-thumb">
-							<a href="single-standard.html" class="thumb-link">
-								<img src="static/images/thumbs/shutterbug.jpg" alt="Shutterbug">
-							</a>
-						</div>
-
-						<div class="entry-text">
-							<div class="entry-header">
-
-								<div class="entry-meta">
-									<span class="cat-links">
-               				<a href="#">Photography</a> 
-               				<a href="#">html</a>                				
-               			</span>
-								</div>
-
-								<h1 class="entry-title"><a href="single-standard.html">Photography Skills Can Improve Your Graphic Design.</a></h1>
-
-							</div>
-							<div class="entry-excerpt">
-								Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est
-								ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa
-								in anim.
-							</div>
-						</div>
-
-					</article>
+					<brickArticle :type="brickData['Shutterbug']['type']" :thumbnailSrc="brickData['Shutterbug']['thumbnailSrc']" :srcAlt="brickData['Shutterbug']['srcAlt']" :catLink1="brickData['Shutterbug']['catLink1']" :catLink2="brickData['Shutterbug']['catLink2']" :entryTitle="brickData['Shutterbug']['entryTitle']" :entryExcerpt="brickData['Shutterbug']['entryExcerpt']"></brickArticle>
 					<!-- end article -->
-
-					<article class="brick entry animate-this">
-
-						<div class="entry-thumb">
-							<a href="single-standard.html" class="thumb-link">
-								<img src="static/images/thumbs/usaf-rocket.jpg" alt="USAF rocket">
-							</a>
-						</div>
-
-						<div class="entry-text">
-							<div class="entry-header">
-
-								<div class="entry-meta">
-									<span class="cat-links">
-               				<a href="#">Branding</a> 
-               				<a href="#">Mockup</a>               				
-               			</span>
-								</div>
-
-								<h1 class="entry-title"><a href="single-standard.html">The 10 Golden Rules of Clean Simple Design.</a></h1>
-
-							</div>
-							<div class="entry-excerpt">
-								Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est
-								ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa
-								in anim.
-							</div>
-						</div>
-
-					</article>
+					<brickArticle :type="brickData['USAF']['type']" :thumbnailSrc="brickData['USAF']['thumbnailSrc']" :srcAlt="brickData['USAF']['srcAlt']" :catLink1="brickData['USAF']['catLink1']" :catLink2="brickData['USAF']['catLink2']" :entryTitle="brickData['USAF']['entryTitle']" :entryExcerpt="brickData['USAF']['entryExcerpt']"></brickArticle>
 					<!-- end article -->
-
-					<article class="brick entry format-gallery group animate-this">
-
-						<div class="entry-thumb">
-
-							<div class="post-slider flexslider">
-								<ul class="slides">
-									<li>
-										<img src="static/images/thumbs/gallery/work1.jpg">
-									</li>
-									<li>
-										<img src="static/images/thumbs/gallery/work2.jpg">
-									</li>
-									<li>
-										<img src="static/images/thumbs/gallery/work3.jpg">
-									</li>
-								</ul>
-							</div>
-
-						</div>
-
-						<div class="entry-text">
-							<div class="entry-header">
-
-								<div class="entry-meta">
-									<span class="cat-links">
-               				<a href="#">Branding</a> 
-               				<a href="#">Wordpress</a>               				
-               			</span>
-								</div>
-
-								<h1 class="entry-title"><a href="single-gallery.html">Workspace Design Trends and Ideas.</a></h1>
-
-							</div>
-							<div class="entry-excerpt">
-								Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est
-								ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa
-								in anim.
-							</div>
-						</div>
-
-					</article>
+					<brickGallery :type="brickData['Gallery']['type']" :slide1Src="brickData['Gallery']['slide1Src']" :slide2Src="brickData['Gallery']['slide2Src']" :slide3Src="brickData['Gallery']['slide3Src']" :catLink1="brickData['Gallery']['catLink1']" :catLink2="brickData['Gallery']['catLink2']" :entryTitle="brickData['Gallery']['entryTitle']" :entryExcerpt="brickData['Gallery']['entryExcerpt']"></brickGallery>
 					<!-- end article -->
-
-					<article class="brick entry format-link animate-this">
-
-						<div class="entry-thumb">
-							<div class="link-wrap">
-								<p>Looking for affordable &amp; reliable web hosting? We recommend Dreamhost.</p>
-								<cite>
-	                 		<a target="_blank" href="http://www.dreamhost.com/r.cgi?287326">http://www.dreamhost.com</a>
-	                 	</cite>
-							</div>
-						</div>
-
-					</article>
+					<brickLink :linkUrl="brickData['dreamHost']['linkUrl']" :linkText="brickData['dreamHost']['linkText']" :entryTitle="brickData['dreamHost']['entryTitle']"></brickLink>
 					<!-- end article -->
-
-
-					<article class="brick entry animate-this">
-
-						<div class="entry-thumb">
-							<a href="single-standard.html" class="thumb-link">
-								<img src="static/images/thumbs/diagonal-pattern.jpg" alt="Pattern">
-							</a>
-						</div>
-
-						<div class="entry-text">
-							<div class="entry-header">
-
-								<div class="entry-meta">
-									<span class="cat-links">
-               				<a href="#">Design</a> 
-               				<a href="#">UI</a>                			
-               			</span>
-								</div>
-
-								<h1 class="entry-title"><a href="single-standard.html">You Can See Patterns Everywhere.</a></h1>
-
-							</div>
-							<div class="entry-excerpt">
-								Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est
-								ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa
-								in anim.
-							</div>
-						</div>
-
-					</article>
+					<brickArticle :type="brickData['Pattern']['type']" :thumbnailSrc="brickData['Pattern']['thumbnailSrc']" :srcAlt="brickData['Pattern']['srcAlt']" :catLink1="brickData['Pattern']['catLink1']" :catLink2="brickData['Pattern']['catLink2']" :entryTitle="brickData['Pattern']['entryTitle']" :entryExcerpt="brickData['Pattern']['entryExcerpt']"></brickArticle>	
 					<!-- end article -->
-
-					<article class="brick entry format-video animate-this">
-
-						<div class="entry-thumb video-image">
-							<a href="http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=F64B39" data-lity>
-								<img src="static/images/thumbs/ottawa-bokeh.jpg" alt="bokeh">
-							</a>
-						</div>
-
-						<div class="entry-text">
-							<div class="entry-header">
-
-								<div class="entry-meta">
-									<span class="cat-links">
-               				<a href="#">Design</a> 
-               				<a href="#">Branding</a>               			
-               			</span>
-								</div>
-
-								<h1 class="entry-title"><a href="single-video.html">This Is a Video Post Format.</a></h1>
-
-							</div>
-							<div class="entry-excerpt">
-								Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est
-								ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa
-								in anim.
-							</div>
-						</div>
-
-					</article>
+					<brickVideo :type="brickData['bokeh']['type']" :thumbnailSrc="brickData['bokeh']['thumbnailSrc']" :srcAlt="brickData['bokeh']['srcAlt']" :catLink1="brickData['bokeh']['catLink1']" :catLink2="brickData['bokeh']['catLink2']" :entryTitle="brickData['bokeh']['entryTitle']" :entryExcerpt="brickData['bokeh']['entryExcerpt']"></brickVideo>
 					<!-- end article -->
-					<brickArticle type="single-standard" :thumbnailSrc="brickData['Lighthouse']['thumbnailSrc']" :srcAlt="brickData['Lighthouse']['srcAlt']" :catLink1="brickData['Lighthouse']['catLink1']" :catLink2="brickData['Lighthouse']['catLink2']" :entryTitle="brickData['Lighthouse']['entryTitle']" :entryExcerpt="brickData['Lighthouse']['entryExcerpt']"></brickArticle>	
+					<brickArticle :type="brickData['Lighthouse']['type']" :thumbnailSrc="brickData['Lighthouse']['thumbnailSrc']" :srcAlt="brickData['Lighthouse']['srcAlt']" :catLink1="brickData['Lighthouse']['catLink1']" :catLink2="brickData['Lighthouse']['catLink2']" :entryTitle="brickData['Lighthouse']['entryTitle']" :entryExcerpt="brickData['Lighthouse']['entryExcerpt']"></brickArticle>	
 					<!-- end article -->
-					<brickArticle type="single-standard" :thumbnailSrc="brickData['Liberty']['thumbnailSrc']" :srcAlt="brickData['Liberty']['srcAlt']" :catLink1="brickData['Liberty']['catLink1']" :catLink2="brickData['Liberty']['catLink2']" :entryTitle="brickData['Liberty']['entryTitle']" :entryExcerpt="brickData['Liberty']['entryExcerpt']"></brickArticle>
-
+					<brickArticle :type="brickData['Liberty']['type']" :thumbnailSrc="brickData['Liberty']['thumbnailSrc']" :srcAlt="brickData['Liberty']['srcAlt']" :catLink1="brickData['Liberty']['catLink1']" :catLink2="brickData['Liberty']['catLink2']" :entryTitle="brickData['Liberty']['entryTitle']" :entryExcerpt="brickData['Liberty']['entryExcerpt']"></brickArticle>
 					<!-- end article -->
-
 				</div>
 				<!-- end brick-wrapper -->
 
@@ -398,37 +123,27 @@
 
 <script>
 import brickArticle from './brickArticle'
+import brickVideo from './brickVideo'
+import brickLink from './brickLink'
+import brickGallery from './brickGallery'
+import brickQuote from './brickQuote'
+import brickAudio from './brickAudio'
 import homePagination from './homePagination'
+import brickData from './brickData'
 export default {
   name: 'Home',
   components:{
 	  brickArticle,
+	  brickVideo,
+	  brickLink,
+	  brickGallery,
+	  brickQuote,
+	  brickAudio,
 	  homePagination
   },
   data () {
     return {
-	  brickData: {
-		  'Liberty':{
-			  'srcAlt':'Liberty',
-			  'thumbnailSrc':'static/images/thumbs/liberty.jpg',
-			  'catLink1':'Branding',
-			  'catLink2':'html',
-			  'entryTitle':'Designing With Black and White.',
-			  'entryExcerpt':`Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est
-								ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa
-								in anim.`
-		  },
-		  'Lighthouse':{
-			  'srcAlt':'Lighthouse',
-			  'thumbnailSrc':'static/images/thumbs/lighthouse.jpg',
-			  'catLink1':'Photography',
-			  'catLink2':'Design',
-			  'entryTitle':'Breathtaking Photos of Lighthouses.',
-			  'entryExcerpt':`Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est
-								ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa
-								in anim.`
-		  },
-	  }
+	  brickData,
     }
   }
 }

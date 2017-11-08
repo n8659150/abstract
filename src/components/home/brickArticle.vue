@@ -18,7 +18,7 @@
                   </span>
               </div>
 
-              <h1 class="entry-title"><a href="single-standard.html">{{entryTitle}}</a></h1>
+              <h1 class="entry-title"><a :href="type + '.html'">{{entryTitle}}</a></h1>
 
             </div>
             <div class="entry-excerpt">
@@ -33,6 +33,6 @@
 <script>
 export default {
   name: "brickArticle",
-  props: ["type", "thumbnailSrc","srcAlt","catLink1","catLink2","entryTitle","entryExcerpt"]
+  props: ["type","thumbnailSrc","srcAlt","catLink1","catLink2","entryTitle","entryExcerpt"]
 };
 </script>

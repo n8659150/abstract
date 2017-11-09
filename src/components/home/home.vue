@@ -9,78 +9,8 @@
 
 					<div class="grid-sizer"></div>
 
-					<div class="brick entry featured-grid animate-this">
-						<div class="entry-content">
-							<div id="featured-post-slider" class="flexslider">
-								<ul class="slides">
-
-									<li>
-										<div class="featured-post-slide">
-
-											<div class="post-background" style="background-image:url('static/images/thumbs/featured/featured-1.jpg');"></div>
-
-											<div class="overlay"></div>
-
-											<div class="post-content">
-												<ul class="entry-meta">
-													<li>September 06, 2016</li>
-													<li><a href="#">Naruto Uzumaki</a></li>
-												</ul>
-
-												<h1 class="slide-title"><a href="single-standard.html" title="">Minimalism Never Goes Out of Style</a></h1>
-											</div>
-
-										</div>
-									</li>
-									<!-- /slide -->
-
-									<li>
-										<div class="featured-post-slide">
-
-											<div class="post-background" style="background-image:url('static/images/thumbs/featured/featured-2.jpg');"></div>
-
-											<div class="overlay"></div>
-
-											<div class="post-content">
-												<ul class="entry-meta">
-													<li>August 29, 2016</li>
-													<li><a href="#">Sasuke Uchiha</a></li>
-												</ul>
-
-												<h1 class="slide-title"><a href="single-standard.html" title="">Enhancing Your Designs with Negative Space</a></h1>
-											</div>
-
-										</div>
-									</li>
-									<!-- /slide -->
-
-									<li>
-										<div class="featured-post-slide">
-
-											<div class="post-background" style="background-image:url('static/images/thumbs/featured/featured-3.jpg');;"></div>
-
-											<div class="overlay"></div>
-
-											<div class="post-content">
-												<ul class="entry-meta">
-													<li>August 27, 2016</li>
-													<li><a href="#" class="author">Naruto Uzumaki</a></li>
-												</ul>
-
-												<h1 class="slide-title"><a href="single-standard.html" title="">Music Album Cover Designs for Inspiration</a></h1>
-											</div>
-
-										</div>
-									</li>
-									<!-- end slide -->
-
-								</ul>
-								<!-- end slides -->
-							</div>
-							<!-- end featured-post-slider -->
-						</div>
-						<!-- end entry content -->
-					</div>
+					<brickSlider :sliderData="brickData['sliderData']"></brickSlider>
+					<!-- end slider -->
 					<brickArticle :type="brickData['building']['type']" :thumbnailSrc="brickData['building']['thumbnailSrc']" :srcAlt="brickData['building']['srcAlt']" :catLink1="brickData['building']['catLink1']" :catLink2="brickData['building']['catLink2']" :entryTitle="brickData['building']['entryTitle']" :entryExcerpt="brickData['building']['entryExcerpt']"></brickArticle>
 					<!-- end article -->
 					<brickArticle :type="brickData['ferris']['type']" :thumbnailSrc="brickData['ferris']['thumbnailSrc']" :srcAlt="brickData['ferris']['srcAlt']" :catLink1="brickData['ferris']['catLink1']" :catLink2="brickData['ferris']['catLink2']" :entryTitle="brickData['ferris']['entryTitle']" :entryExcerpt="brickData['ferris']['entryExcerpt']"></brickArticle>
@@ -88,7 +18,6 @@
 					<!-- format audio here -->
 					<brickAudio :type="brickData['concert']['type']" :thumbnailSrc="brickData['concert']['thumbnailSrc']" :srcAlt="brickData['concert']['srcAlt']" :audioSrc="brickData['concert']['audioSrc']" :catLink1="brickData['concert']['catLink1']" :catLink2="brickData['concert']['catLink2']" :entryTitle="brickData['concert']['entryTitle']" :entryExcerpt="brickData['concert']['entryExcerpt']"></brickAudio>
 					<!-- /article -->
-					
 					<brickQuote :quote="brickData['quote']['quote']" :author="brickData['quote']['author']"></brickQuote>
 					<!-- end article -->
 					<brickArticle :type="brickData['Shutterbug']['type']" :thumbnailSrc="brickData['Shutterbug']['thumbnailSrc']" :srcAlt="brickData['Shutterbug']['srcAlt']" :catLink1="brickData['Shutterbug']['catLink1']" :catLink2="brickData['Shutterbug']['catLink2']" :entryTitle="brickData['Shutterbug']['entryTitle']" :entryExcerpt="brickData['Shutterbug']['entryExcerpt']"></brickArticle>
@@ -114,7 +43,7 @@
 			<!-- end row -->
 
 			<div class="row">
-				<homePagination pageCount='5'></homePagination>
+				<absPagination pageCount='5'></absPagination>
 			</div>
 
 		</section>
@@ -122,28 +51,12 @@
 </template>
 
 <script>
-import brickArticle from './brickArticle'
-import brickVideo from './brickVideo'
-import brickLink from './brickLink'
-import brickGallery from './brickGallery'
-import brickQuote from './brickQuote'
-import brickAudio from './brickAudio'
-import homePagination from './homePagination'
 import brickData from './brickData'
 export default {
   name: 'Home',
-  components:{
-	  brickArticle,
-	  brickVideo,
-	  brickLink,
-	  brickGallery,
-	  brickQuote,
-	  brickAudio,
-	  homePagination
-  },
   data () {
     return {
-	  brickData,
+	  brickData
     }
   }
 }

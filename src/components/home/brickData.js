@@ -1,4 +1,10 @@
 export default {
+
+        'sliderData':[
+            {'sliderSrc':'static/images/thumbs/featured/featured-1.jpg','sliderDate':'September 06, 2016','sliderAuthor':'Naruto Uzumaki','type':'single-standard','sliderTitle':'Minimalism Never Goes Out of Style'},
+            {'sliderSrc':'static/images/thumbs/featured/featured-2.jpg','sliderDate':'August 29, 2016','sliderAuthor':'Sasuke Uchiha','type':'single-standard','sliderTitle':'Enhancing Your Designs with Negative Space'},
+            {'sliderSrc':'static/images/thumbs/featured/featured-3.jpg','sliderDate':'August 27, 2016','sliderAuthor':'Naruto Uzumaki','type':'single-standard','sliderTitle':'Music Album Cover Designs for Inspiration'}
+        ],
         'Liberty':{
             'type': 'single-standard',
             'srcAlt':'Liberty',
@@ -119,7 +125,7 @@ export default {
             'entryExcerpt':`Lorem ipsum Sed eiusmod esse aliqua sed incididunt aliqua incididunt mollit id et sit proident dolor nulla sed commodo est
                             ad minim elit reprehenderit nisi officia aute incididunt velit sint in aliqua cillum in consequat consequat in culpa
                             in anim.`
-        },
+        }
 
 
 }

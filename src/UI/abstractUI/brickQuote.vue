@@ -1,14 +1,14 @@
 <template>
 	<div>
-      <article class="brick entry format-quote animate-this">
-		<div class="entry-thumb">
-			<blockquote>
-				<p>{{quote}}</p>
+		<article class="brick entry format-quote animate-this">
+			<div class="entry-thumb">
+				<blockquote>
+					<p>{{quote}}</p>
 
-				<cite>{{author}}</cite>
-			</blockquote>
-		</div>
-	  </article>
+					<cite>{{author}}</cite>
+				</blockquote>
+			</div>
+		</article>
 	</div>
 </template>
 

@@ -1,96 +1,104 @@
 <template>
-  <div>
-   <!-- footer
+	<div>
+		<!-- footer
    ================================================== -->
-   <footer>
+		<footer>
 
-   	<div class="footer-main">
+			<div class="footer-main">
 
-   		<div class="row">  
+				<div class="row">
 
-	      	<div class="col-four tab-full mob-full footer-info">            
+					<div class="col-four tab-full mob-full footer-info">
 
-	            <h4>About Our Site</h4>
+						<h4>About Our Site</h4>
 
-	               <p>
-		          	Lorem ipsum Ut velit dolor Ut labore id fugiat in ut fugiat nostrud qui in dolore commodo eu magna Duis cillum dolor officia esse mollit proident Excepteur exercitation nulla. Lorem ipsum In reprehenderit commodo aliqua irure labore.
-		          	</p>
+						<p>
+							Lorem ipsum Ut velit dolor Ut labore id fugiat in ut fugiat nostrud qui in dolore commodo eu magna Duis cillum dolor officia
+							esse mollit proident Excepteur exercitation nulla. Lorem ipsum In reprehenderit commodo aliqua irure labore.
+						</p>
 
-		      </div> <!-- end footer-info -->
+					</div>
+					<!-- end footer-info -->
 
-	      	<div class="col-two tab-1-3 mob-1-2 site-links">
+					<div class="col-two tab-1-3 mob-1-2 site-links">
 
-	      		<h4>Site Links</h4>
+						<h4>Site Links</h4>
 
-	      		<ul>
-	      			<li><a href="#">About Us</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">FAQ</a></li>
-						<li><a href="#">Terms</a></li>
-						<li><a href="#">Privacy Policy</a></li>
-					</ul>
+						<ul>
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Terms</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
 
-	      	</div> <!-- end site-links -->  
+					</div>
+					<!-- end site-links -->
 
-	      	<div class="col-two tab-1-3 mob-1-2 social-links">
+					<div class="col-two tab-1-3 mob-1-2 social-links">
 
-	      		<h4>Social</h4>
+						<h4>Social</h4>
 
-	      		<ul>
-	      			<li><a href="#">Twitter</a></li>
-						<li><a href="#">Facebook</a></li>
-						<li><a href="#">Dribbble</a></li>
-						<li><a href="#">Google+</a></li>
-						<li><a href="#">Instagram</a></li>
-					</ul>
-	      	           	
-	      	</div> <!-- end social links --> 
+						<ul>
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Dribbble</a></li>
+							<li><a href="#">Google+</a></li>
+							<li><a href="#">Instagram</a></li>
+						</ul>
 
-	      	<div class="col-four tab-1-3 mob-full footer-subscribe">
+					</div>
+					<!-- end social links -->
 
-	      		<h4>Subscribe</h4>
+					<div class="col-four tab-1-3 mob-full footer-subscribe">
 
-	      		<p>Keep yourself updated. Subscribe to our newsletter.</p>
+						<h4>Subscribe</h4>
 
-	      		<div class="subscribe-form">
-	      	
-	      			<form id="mc-form" class="group" novalidate="true">
+						<p>Keep yourself updated. Subscribe to our newsletter.</p>
 
-							<input type="email" value="" name="dEmail" class="email" id="mc-email" placeholder="Type &amp; press enter" required=""> 
-	   		
-			   			<input type="submit" name="subscribe" >
-		   	
-		   				<label for="mc-email" class="subscribe-message"></label>
-			
-						</form>
+						<div class="subscribe-form">
 
-	      		</div>	      		
-	      	           	
-	      	</div> <!-- end subscribe -->         
+							<form id="mc-form" class="group" novalidate="true">
 
-	      </div> <!-- end row -->
+								<input type="email" value="" name="dEmail" class="email" id="mc-email" placeholder="Type &amp; press enter" required="">
 
-   	</div> <!-- end footer-main -->
+								<input type="submit" name="subscribe">
 
-      <div class="footer-bottom">
-      	<div class="row">
+								<label for="mc-email" class="subscribe-message"></label>
 
-      		<div class="col-twelve">
-	      		<div class="copyright">
-		         	<span>© Copyright Abstract styleshout 2016</span> 
-		         	<span>More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></span>		         	
-		         </div>
+							</form>
 
-		         <div id="go-top">
-		            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon icon-arrow-up"></i></a>
-		         </div>         
-	      	</div>
+						</div>
 
-      	</div> 
-      </div> <!-- end footer-bottom -->  
+					</div>
+					<!-- end subscribe -->
 
-   </footer>  
-   </div>
+				</div>
+				<!-- end row -->
+
+			</div>
+			<!-- end footer-main -->
+
+			<div class="footer-bottom">
+				<div class="row">
+
+					<div class="col-twelve">
+						<div class="copyright">
+							<span>© Copyright Abstract styleshout 2016</span>
+							<span>2017 Jack Li© refactoring in Vue.js - for learning purpose only</span>
+						</div>
+
+						<div id="go-top">
+							<a class="smoothscroll" title="Back to Top" href="#top"><i class="icon icon-arrow-up"></i></a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- end footer-bottom -->
+
+		</footer>
+	</div>
 </template>
 
 <script>

@@ -1,12 +1,12 @@
 <template>
-  <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
-    <headerBar></headerBar>
-    <keep-alive>  
-    <router-view/>
-    </keep-alive include="home">
-    <footerBar></footerBar>
-  </div>
+	<div id="app">
+		<!-- <img src="./assets/logo.png"> -->
+		<headerBar></headerBar>
+		<keep-alive>
+			<router-view/>
+		</keep-alive>
+		<footerBar></footerBar>
+	</div>
 </template>
 
 <script>
@@ -20,4 +20,3 @@ export default {
   }
 }
 </script>
-

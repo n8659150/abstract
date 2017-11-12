@@ -3,13 +3,13 @@ import Router from 'vue-router'
 // /About
 import About from '@/components/about/about'
 // /Blogs and /Blogs/singleStandard
-import SingleStandardPost from '@/components/blogs/singleStandardPost'
+import SingleStandardPost from '@/components/blogs/singleStandardPost/singleStandardPost'
 // /Blogs/singleVideo
-import SingleVideoPost from '@/components/blogs/singleVideoPost'
+import SingleVideoPost from '@/components/blogs/singleVideoPost/singleVideoPost'
 // /Blogs/singleAudio
-import SingleAudioPost from '@/components/blogs/singleAudioPost'
+import SingleAudioPost from '@/components/blogs/singleAudioPost/singleAudioPost'
 // /Blogs/singleGallery
-import SingleGalleryPost from '@/components/blogs/singleGalleryPost'
+import SingleGalleryPost from '@/components/blogs/singleGalleryPost/singleGalleryPost'
 // /Categories
 import Categories from '@/components/categories/categories'
 

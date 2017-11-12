@@ -1,43 +1,43 @@
 <template>
 	<div>
-      <article class="brick entry format-gallery group animate-this">
+		<article class="brick entry format-gallery group animate-this">
 
-        <div class="entry-thumb">
+			<div class="entry-thumb">
 
-          <div class="post-slider flexslider">
-            <ul class="slides">
-              <li>
-                <img :src="slide1Src">
-              </li>
-              <li>
-                <img :src="slide2Src">
-              </li>
-              <li>
-                <img :src="slide3Src">
-              </li>
-            </ul>
-          </div>
+				<div class="post-slider flexslider">
+					<ul class="slides">
+						<li>
+							<img :src="slide1Src">
+						</li>
+						<li>
+							<img :src="slide2Src">
+						</li>
+						<li>
+							<img :src="slide3Src">
+						</li>
+					</ul>
+				</div>
 
-        </div>
+			</div>
 
-        <div class="entry-text">
-          <div class="entry-header">
+			<div class="entry-text">
+				<div class="entry-header">
 
-            <div class="entry-meta">
-              <span class="cat-links">
+					<div class="entry-meta">
+						<span class="cat-links">
                   <a href="#">{{catLink1}}</a> 
                   <a href="#">{{catLink2}}</a>               				
                 </span>
-            </div>
+					</div>
 
-            <h1 class="entry-title"><a :href="type + '.html'">{{entryTitle}}</a></h1>
+					<h1 class="entry-title"><a :href="type + '.html'">{{entryTitle}}</a></h1>
 
-          </div>
-          <div class="entry-excerpt">
-            {{entryExcerpt}}
-          </div>
-        </div>
-    </article>
+				</div>
+				<div class="entry-excerpt">
+					{{entryExcerpt}}
+				</div>
+			</div>
+		</article>
 	</div>
 </template>
 

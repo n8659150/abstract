@@ -1,6 +1,6 @@
 <template>
 	<div>
-      <article class="brick entry format-audio animate-this">
+		<article class="brick entry format-audio animate-this">
 
 			<div class="entry-thumb">
 				<a :href="type + '.html'" class="thumb-link">
@@ -30,7 +30,7 @@
 				</div>
 			</div>
 
-      </article>
+		</article>
 	</div>
 </template>
 

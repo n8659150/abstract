@@ -1,0 +1,9 @@
+export default {
+    'comments': [
+        { 'avatar': 'static/images/avatars/user-01.jpg', 'commentDate': 'Jul 12, 2014 @ 23:05', 'dateTime': '2014-07-12T23:05', 'commentAuthor': 'Itachi Uchiha', 'commentText': 'Adhuc quaerendum est ne, vis ut harum tantas noluisse, id suas iisque mei. Nec te inani ponderum vulputate, facilisi expetenda has et. Iudico dictas scriptorem an vim, ei alia mentitum est, ne has voluptua praesent.' },
+        { 'avatar': 'static/images/avatars/user-04.jpg', 'commentDate': 'Jul 12, 2014 @ 24:05', 'dateTime': '2014-07-12T24:05', 'commentAuthor': 'John Doe', 'commentText': 'Sumo euismod dissentiunt ne sit, ad eos iudico qualisque adversarium, tota falli et mei. Esse euismod urbanitas ut sed, et duo scaevola pericula splendide. Primis veritus contentiones nec ad, nec et tantas semper delicatissimi.' },
+        { 'avatar': 'static/images/avatars/user-03.jpg', 'commentDate': 'Jul 12, 2014 @ 25:05', 'dateTime': '2014-07-12T25:05', 'commentAuthor': 'Kakashi Hatake', 'commentText': 'Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris' },
+        { 'avatar': 'static/images/avatars/user-04.jpg', 'commentDate': 'Jul 12, 2014 @ 25:15', 'dateTime': '2014-07-12T25:15', 'commentAuthor': 'John Doe', 'commentText': 'Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.' },
+        { 'avatar': 'static/images/avatars/user-02.jpg', 'commentDate': 'Jul 12, 2014 @ 25:15', 'dateTime': '2014-07-12T25:15', 'commentAuthor': 'Shikamaru Nara', 'commentText': 'Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.' },
+    ]
+}

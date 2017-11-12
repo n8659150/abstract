@@ -7,7 +7,8 @@ import brickQuote from './brickQuote'
 import brickSlide from './brickSlide'
 import brickSlider from './brickSlider'
 import brickVideo from './brickVideo'
-
+import commentList from './commentList'
+import replyBox from './replyBox'
 const abstractUI = {
     install: function (Vue) {
         Vue.component('absPagination', absPagination);
@@ -19,6 +20,8 @@ const abstractUI = {
         Vue.component('brickSlide', brickSlide);
         Vue.component('brickSlider', brickSlider);
         Vue.component('brickVideo', brickVideo);
+        Vue.component('commentList', commentList);
+        Vue.component('replyBox', replyBox);
     }
 };
 
